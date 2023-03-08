@@ -37,7 +37,7 @@ import Detail from './Pages/Detail';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/KYJ0206/categoryProject.git',
     element: <App />,
     errorElement: <NotPound />,
     children: [
