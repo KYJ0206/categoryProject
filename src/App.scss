@@ -1,0 +1,84 @@
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+  box-sizing: border-box;
+}
+
+// 카테고리
+.CategoryTab{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 0 0 40px;
+  margin: 40px 0 0;
+  li{
+      border: 1px solid #ccc;
+      width: 100%;
+      padding: 10px;
+      list-style: none;
+      text-align: center;
+      background-color: #ebb319;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+  }
+}
+
+// 리스트
+.productListWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  .productList{
+      width: calc((100% - 60px )/ 4) ;
+      padding: 20px;
+      list-style: none;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      cursor: pointer;
+      .topBox{
+        display: flex;
+        flex-direction: column-reverse;
+          img{
+                max-height: 200px;
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                height: 345px;
+                object-fit: contain;
+          }
+          .category{
+              background-color: aquamarine;
+              padding: 20px 0;
+              text-align: center;
+              margin: 20px 0 50px;
+              font-size: 20px;
+              font-weight: bold;
+          }
+      }
+      .bottomBox{
+          h4,h5{
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              height: 38px;
+          }
+          div{
+            display: flex;
+            gap: 20px;
+            
+          }
+      }
+  }
+}

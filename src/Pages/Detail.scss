@@ -1,0 +1,77 @@
+.detailBox{
+    max-width: 880px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    .back{
+        cursor: pointer;
+        max-width: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-weight: bold;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #000;
+        &:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    }
+    .topBox{
+        h4{
+            height: auto;
+            font-size: 32px;
+        }
+        .price{
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            padding: 0 12px;
+            font-size: 22px;
+        }
+        gap: 40px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+          img{
+                max-height: 300px;
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                height: 100%;
+                object-fit: contain;
+          }
+          .category{
+              position: absolute;
+              right: 0;
+              top: -60px;
+              background-color: aquamarine;
+              border-radius: 12px;
+              padding: 20px;
+              text-align: center;
+              margin: 0;
+              font-size: 20px;
+              line-height: 1;
+              font-weight: bold;
+          }
+      }
+      .bottomBox{
+          h5{
+            font-size: 28px;
+          }
+          div{
+            display: flex;
+            gap: 20px;
+            
+          }
+      }
+}
+
