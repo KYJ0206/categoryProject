@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KYJ0206/categoryProject.git/static/css/main.459bfee3.css",
+    "main.js": "/KYJ0206/categoryProject.git/static/js/main.e8fd0003.js",
+    "static/js/787.db0de2b5.chunk.js": "/KYJ0206/categoryProject.git/static/js/787.db0de2b5.chunk.js",
+    "index.html": "/KYJ0206/categoryProject.git/index.html",
+    "main.459bfee3.css.map": "/KYJ0206/categoryProject.git/static/css/main.459bfee3.css.map",
+    "main.e8fd0003.js.map": "/KYJ0206/categoryProject.git/static/js/main.e8fd0003.js.map",
+    "787.db0de2b5.chunk.js.map": "/KYJ0206/categoryProject.git/static/js/787.db0de2b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.459bfee3.css",
+    "static/js/main.e8fd0003.js"
+  ]
+}
