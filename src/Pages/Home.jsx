@@ -16,9 +16,8 @@ export default function App() {
   async function getCategory() {
     try {
       const res = await testApi('products/categories')
-      console.log(res, '!!!')
+      // console.log(res, '!!!')
       setMenu(['all', ...res ])
-      console.log('category Name');
     } catch (error) {
       console.error(error);
     }
@@ -31,7 +30,7 @@ export default function App() {
       const { data } = await axios.get("https://fakestoreapi.com/products");
       if(filterCategory !== 'all' ) {
         const filterData = data.filter(items => items.category === filterCategory)
-        console.log('아이템?',filterData)
+        // console.log('아이템?',filterData)
         setData(filterData); 
       } else {
         setData(data)

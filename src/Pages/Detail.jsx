@@ -8,7 +8,7 @@ export default function Detail() {
         state: {item},
     } = useLocation();
 
-    console.log(item)
+    // console.log(item)
 
     return (
         <div className='detailBox'>
