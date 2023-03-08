@@ -20,9 +20,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build && shx cp build/index.html build/404.html"
   },
-  "homepage": "https://github.com/KYJ0206/categoryProject.git",
+  "homepage": "https://kyj0206.github.io/categoryProject/",
   "eslintConfig": {
     "extends": [
       "react-app",
