@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import NotPound from './Pages/NotPound';
 import Home from './Pages/Home';
@@ -35,9 +35,9 @@ import Detail from './Pages/Detail';
 //   },
 // ]);
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: '/KYJ0206/categoryProject.git',
+    path: '/',
     element: <App />,
     errorElement: <NotPound />,
     children: [
